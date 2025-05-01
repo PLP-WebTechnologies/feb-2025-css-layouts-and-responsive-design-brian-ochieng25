@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENTOZ B FRAGRANCES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7e0; /* Light green background */
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: black; /* Set link color to black */
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #575757;
+            color: white; /* Change text color on hover */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .fragrance {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+        .social-media {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                grid-template-columns: 1fr; /* Single column for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DENTOZ B FRAGRANCES</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#fragrances">Fragrances</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="fragrances">
+    <h2>Our Fragrances</h2>
+    <div class="fragrance">
+        <h3>Fresh Breeze</h3>
+        <p>A refreshing floral fragrance with hints of citrus.</p>
+    </div>
+    <div class="fragrance">
+        <h3>Ocean Mist</h3>
+        <p>A cool and calming scent reminiscent of ocean waves.</p>
+    </div>
+    <div class="fragrance">
+        <h3>Vanilla Dream</h3>
+        <p>A warm and sweet fragrance with rich vanilla notes.</p>
+    </div>
+    <div class="fragrance">
+        <h3>Spicy Rose</h3>
+        <p>A bold blend of spicy and floral elements.</p>
+    </div>
+</div>
+
+<div class="social-media">
+    <h4>Follow us on social media:</h4>
+    <a href="https://instagram.com/dentozb">Instagram</a>
+    <a href="https://facebook.com/dentozb">Facebook</a>
+    <a href="https://twitter.com/dentozb">Twitter</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 DENTOZ B FRAGRANCES. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
